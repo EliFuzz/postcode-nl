@@ -1,4 +1,5 @@
 [![GitHub](https://travis-ci.org/EliFuzz/postcode-nl.svg?branch=master)](https://travis-ci.org/EliFuzz/postcode-nl)
+[![GitHub](https://img.shields.io/packagist/v/elifuzz/postcode-nl)](https://packagist.org/packages/elifuzz/postcode-nl)
 
 Postcode.nl PHP API REST Client
 ===
