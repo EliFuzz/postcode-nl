@@ -1,6 +1,5 @@
 language: php
 php:
-  - 7.0.0
   - 7.1.0
   - 7.4.0
 sudo: false
