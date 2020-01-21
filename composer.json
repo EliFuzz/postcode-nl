@@ -1,0 +1,39 @@
+{
+  "name": "elifuzz/postcode-nl",
+  "description": "PHP wrapper for the Postcode.nl Dutch address verification API",
+  "type": "project",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Roman Glushach",
+      "role": "Web Architect"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/EliFuzz/postcode-nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RestApi\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "guzzlehttp/guzzle": "6.5.2",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.5.2",
+    "friendsofphp/php-cs-fixer": "2.16.1"
+  },
+  "scripts": {
+    "test": "phpunit tests",
+    "cs": [
+      "php-cs-fixer fix src --ansi -v",
+      "php-cs-fixer fix tests --ansi -v"
+    ]
+  }
+}
